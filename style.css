@@ -1,0 +1,314 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+/* ====================common================== */
+a {
+  text-decoration: none;
+}
+.hero {
+  padding: 42px 0 79px;
+}
+
+.hero .body {
+  display: flex;
+}
+.hero .content-block {
+  width: 50%;
+}
+.hero .content-block .top-title {
+  margin-top: 93px;
+  color: #767e7e;
+  font-size: 1.4rem;
+}
+.hero .content-block .title {
+  margin-top: 18px;
+  max-width: 458px;
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.16;
+}
+.hero .content-block .desc {
+  width: 374px;
+  margin-top: 46px;
+  color: #9da6a5;
+  font-size: 1.8rem;
+  line-height: 1.77;
+}
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-content .logo {
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.main-content .body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-content ul {
+  color: #2f3a3b;
+  display: flex;
+  gap: 39px;
+}
+.main-content .logo img {
+  margin-left: 145px;
+}
+.hero .main-content .body {
+  display: flex;
+}
+
+.action {
+  display: flex;
+  margin: right 135px;
+}
+.action {
+  gap: 48px;
+  margin-right: 135px;
+  align-items: center;
+  justify-content: center;
+  color: #494949;
+}
+.action .action-btn {
+  color: #1ebfc1;
+  width: 108px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.avatar-block .active {
+  background: #1ebfc1;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+.content-block P {
+  color: #767e7e;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 21px;
+}
+.content-block h1 {
+  color: #0d1111;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2; /* 116.129% */
+}
+.content-block .desc {
+  width: 374px;
+  color: #9da6a5;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.78; /* 177.778% */
+  margin-top: 46px;
+}
+.hero .content-block .cta-group {
+  margin-top: 52px;
+  display: flex;
+  text-align: center;
+}
+.content-block .cta-btn {
+  width: 186px;
+  height: 68px;
+  border-radius: 14px;
+  background: #1ebfc1;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.hero .content-block .desc-span {
+  display: inline-block;
+}
+
+.hero .content-block .play-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #6b08c2;
+  margin-left: 50px;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background: #fff;
+  gap: 50px;
+  box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.hero .content-block .play-video:hover {
+  background: #eee;
+  box-shadow: 0px 0px 0px 0px rgba(196, 26, 134, 0.5);
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+/* hero right */
+.hero .media-block {
+  position: relative;
+  margin-top: 150px;
+}
+.hero .media-block img {
+  background: rgb(186, 243, 243);
+}
+
+.hero .media-course {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  top: 149px;
+  left: -40px;
+  width: 157px;
+  height: 75px;
+  border-radius: 18px;
+  background: #fefefd;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.hero .media-course::after {
+  position: absolute;
+  top: 45px;
+  left: 21px;
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 4px;
+  background: #fff;
+  border-radius: 999px;
+}
+.hero .media-course .course-icon {
+  width: 36px;
+  height: 40px;
+}
+.hero .media-course .detail {
+  color: #0d1111;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 55px;
+}
+.hero .media-schedule {
+  position: absolute;
+  top: 453px;
+  left: -65px;
+  width: 124px;
+  height: 132px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.05);
+  align-items: center;
+  justify-content: center;
+}
+.hero .media-schedule span {
+  display: inline-block;
+  margin: 16px 32px 0;
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.hero .media-schedule .schedule-icon {
+  display: block;
+  width: 74px;
+  height: 6px;
+  margin: 16px 25px 0;
+  border-radius: 3px;
+}
+.hero .media-schedule .schedule-icon2 {
+  margin-top: 12px;
+}
+.hero .media-schedule .schedule-icon3 {
+  margin-top: 10px;
+}
+.hero .media-schedule .schedule-icon4 {
+  margin-top: 16px;
+  background: #fff;
+}
+/* avatar-block */
+.hero .media-block .avatar-block {
+  position: absolute;
+  top: 500px;
+  left: 324px;
+  right: 45px;
+  width: 207px;
+  height: 90px;
+  background: #fefefd;
+  border-radius: 24px;
+  box-shadow: 0 12px 80px 0 rgba(0, 0, 0, 0.05);
+}
+.hero .avatar-block .ava-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .avatar-block .ava {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  margin-top: 8px;
+  margin-left: -7px;
+}
+.hero .ava-list .ava:first-child {
+  margin-left: 0;
+}
+.hero .avatar-block .detail {
+  display: inline-block;
+  margin: 17px 35px 0;
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.hero .avatar-block .avar-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1ebfc1;
+}
+.hero .avar-more span {
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.hero .avatar-block .ava1 {
+  background: yellow;
+}
+.hero .avatar-block .ava2 {
+  background: red;
+}
+.hero .avatar-block .ava3 {
+  background: pink;
+}
+.hero .avatar-block .ava4 {
+  background: violet;
+}
