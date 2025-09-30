@@ -55,6 +55,12 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+/* main { */
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
 .main-content .logo {
   padding: 32px 0;
   display: flex;
@@ -668,4 +674,48 @@ a {
   top: 374px;
   left: 1060px;
   background-color: blue;
+}
+/* admit */
+.admit {
+  margin-top: 130px;
+  background: #def6f5;
+  width: 1440px;
+  height: 272px;
+  padding: 76px 135px 88px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.admit .body3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.admit .heading-lv2 {
+  color: #070707;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.admit .desc {
+  margin-top: 18px;
+  margin-right: 410px;
+  color: #767e7e;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.admit .btn {
+  display: flex;
+  color: #ffffff;
+  background-color: #2ac9bf;
+  width: 186px;
+  height: 68px;
+  border-radius: 14px;
+  align-items: center;
+  justify-content: center;
 }
